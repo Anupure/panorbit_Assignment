@@ -1,0 +1,56 @@
+.Header {
+  display: flex;
+  width: 67vw;
+  flex-direction: row;
+  margin-left: 50px;
+  justify-content: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.avatarLogin img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.userProfile {
+  display: flex;
+  justify-content: center;
+}
+
+.dropDown a {
+  color: #4a4a4a !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none !important ;
+}
+
+.userProfile p {
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.dropdownImage {
+  width: 70px;
+  margin-left: 26px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+.pagename {
+  flex: 0.5;
+}
+
+.dropdown {
+  flex: 0.5;
+}
+.singular {
+  margin-top: 20px;
+}

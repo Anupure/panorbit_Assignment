@@ -1,0 +1,36 @@
+.ProfileSidebar {
+  border-radius: 5%;
+  perspective: 5px;
+  padding-right: 20px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(#3a59c8, #5e3cc8);
+  color: #a09fe2;
+  width: 18vw;
+  height: 90vh;
+}
+
+ul {
+  display: flex;
+  align-items: left;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+}
+li {
+  margin: 5px 0px;
+  font-size: 30px;
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
+
+.navink {
+  text-decoration: none !important;
+}
+
+.navlinkActive {
+  color: white !important;
+}

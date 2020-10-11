@@ -1,0 +1,13 @@
+.comingSoon {
+  height: 80vh;
+  width: 74vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.comingSoon h1 {
+  font-size: 100px;
+  color: #eeeeee;
+}

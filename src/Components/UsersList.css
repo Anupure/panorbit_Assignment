@@ -1,0 +1,54 @@
+.contentHolder {
+  margin: 0px;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+}
+
+.UsersList {
+  margin: 15vh auto;
+  display: flex;
+  height: 70vh;
+  width: 40vw;
+  background-color: #f6f6f6;
+  justify-content: center;
+  border: 1px white;
+  border-radius: 5%;
+  box-shadow: 1px 1px 10px;
+  flex-direction: column;
+}
+
+.UsersList h2 {
+  color: #545454;
+  text-align: center;
+  padding: 20px 0px;
+}
+.listOfUsers {
+  background: white;
+  text-align: center;
+  padding-top: 20px;
+  overflow-y: scroll;
+  margin-bottom: 22px;
+  padding: 0px 10px;
+  margin-left: 1px;
+}
+.avatar img {
+  height: 30px;
+  width: 30px;
+  border: 1px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.user {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 2px;
+}
