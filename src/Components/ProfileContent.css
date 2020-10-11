@@ -13,7 +13,7 @@
 }
 
 .topLeft {
-  height: 65vh;
+  height: auto;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,6 @@
   align-items: center;
   border-bottom: 1px solid lightgray;
   margin-right: 15px;
-  overflow: visible;
 }
 
 .profileSection {
